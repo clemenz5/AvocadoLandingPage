@@ -21,7 +21,7 @@
 </style>
 
 <section class="hero">
-	<h1>avoca.to - do all the avocado things</h1>
+	<h1>avoca.to - do all the avocado things!</h1>
 </section>
 <section class="hero">
 	<h1>Avocado growing in sync with lunar support</h1>
