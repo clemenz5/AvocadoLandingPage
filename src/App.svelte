@@ -16,7 +16,7 @@
 		min-height: 100vh;
 	}
 	.hero {
-		background:  linear-gradient(-164deg, #b7f5b7, #a0ff62);
+		background:  linear-gradient(0deg, #000000, #ffffff);
 	}
 </style>
 
