@@ -27,14 +27,11 @@
 	.feature_planning {
 		background:  linear-gradient(0deg, #72ff61, #8eff80);
 	}
-	.feature_planning {
+	.feature_acoustic_growth {
 		background:  linear-gradient(0deg, #54ff40, #72ff61);
 	}
-	.feature_acoustic_growth {
-		background:  linear-gradient(0deg, #36ff1f, #54ff40);
-	}
 	.feature_multicavo {
-		background:  linear-gradient(0deg, #1aff00, #36ff1f);
+		background:  linear-gradient(0deg, #36ff1f, #54ff40);
 	}
 </style>
 
