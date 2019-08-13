@@ -19,22 +19,22 @@
 		background:  linear-gradient(0deg, #dfffdb, #ffffff);
 	}
 	.feature_moon_calendar {
-		background:  linear-gradient(0deg, #000000, #ffffff);
+		background:  linear-gradient(0deg, #b9ffb0, #dfffdb);
 	}
 	.feature_notifications {
-		background:  linear-gradient(0deg, #000000, #ffffff);
+		background:  linear-gradient(0deg, #8eff80, #b9ffb0);
 	}
 	.feature_planning {
-		background:  linear-gradient(0deg, #000000, #ffffff);
+		background:  linear-gradient(0deg, #72ff61, #8eff80);
 	}
 	.feature_planning {
-		background:  linear-gradient(0deg, #000000, #ffffff);
+		background:  linear-gradient(0deg, #54ff40, #72ff61);
 	}
 	.feature_acoustic_growth {
-		background:  linear-gradient(0deg, #000000, #ffffff);
+		background:  linear-gradient(0deg, #36ff1f, #54ff40);
 	}
 	.feature_multicavo {
-		background:  linear-gradient(0deg, #000000, #ffffff);
+		background:  linear-gradient(0deg, #1aff00, #36ff1f);
 	}
 </style>
 
