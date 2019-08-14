@@ -15,7 +15,7 @@
   svg {
     position: absolute;
     top: 3em;
-    right: 1em;
+    right: 15vw;
   }
 </style>
 

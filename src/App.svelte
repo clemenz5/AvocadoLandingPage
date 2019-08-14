@@ -7,6 +7,7 @@
 		margin: 0;
 		padding: 0;
 		font-size: 18px;
+		overflow-x: hidden;
 	}
 	:global(h1, h2) {
 		font-size: 2em;
