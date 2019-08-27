@@ -2,15 +2,9 @@
   section {
     color: lightblue;
     background: linear-gradient(-28deg, #4125a3, #8691e1);
-    padding-top: 350px;
-
   }
   h2 {
     color: #f1f1ba;
-  }
-  p {
-    max-width: 80%;
-    margin: auto;
   }
   svg {
     position: absolute;

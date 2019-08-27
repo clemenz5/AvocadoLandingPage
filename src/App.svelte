@@ -1,5 +1,6 @@
 <script>
 	import MoonCalendar from './sections/MoonCalendar.svelte';
+	import Notifications from './sections/Notifications.svelte';
 </script>
 
 <style>
@@ -17,13 +18,15 @@
 	:global(section) {
 		min-height: 100vh;
 		padding: 2em;
+		padding-top: 350px;
 		position: relative;
 	}
+	:global(p) {
+    	max-width: 80%;
+    	margin: auto;
+  	}
 	.head {
 		background:  linear-gradient(0deg, #dfffdb, #ffffff);
-	}
-	.feature_notifications {
-		background:  linear-gradient(0deg, #8eff80, #b9ffb0);
 	}
 	.feature_planning {
 		background:  linear-gradient(0deg, #72ff61, #8eff80);
@@ -40,10 +43,7 @@
 	<h2>avoca.to - do all the avocado things!</h2>
 </section>
 <MoonCalendar />
-<section class="feature_notifications">
-	<h2>avoca.to reminds you to be there for your plants.</h2>
-	<p>receive push notifications reminding you to take care of your avocado growing operation. Enable and disable different reminders, like watering, to fit your life.</p>
-</section>
+<Notifications />
 <section class="feature_planning">
 	<h2>long term planning</h2>
 	<p>Track the time and care you invest into your avocado and receive useful tips. </p>
