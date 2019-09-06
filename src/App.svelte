@@ -1,6 +1,7 @@
 <script>
 	import MoonCalendar from './sections/MoonCalendar.svelte';
 	import Notifications from './sections/Notifications.svelte';
+	import Multicado from "./sections/Multicado.svelte";
 </script>
 
 <style>
@@ -16,10 +17,11 @@
 		text-align: center;
 	}
 	:global(section) {
-		min-height: 100vh;
+		height: 100vh;
 		padding: 2em;
 		padding-top: 350px;
 		position: relative;
+		box-sizing: border-box;
 	}
 	:global(p) {
     	max-width: 80%;
@@ -33,9 +35,6 @@
 	}
 	.feature_acoustic_growth {
 		background:  linear-gradient(0deg, #54ff40, #72ff61);
-	}
-	.feature_multicavo {
-		background:  linear-gradient(0deg, #36ff1f, #54ff40);
 	}
 </style>
 
@@ -52,10 +51,5 @@
 	<h2>Acoustic Growth Stimulation</h2>
 	<p>connect your avocados to other avoca.to users around the world and let them talk to each other. Stream your fav piece by Mozart straight to them green goodies.</p>
 </section>
-<section class="feature_multicavo">
-<h2>
-	Multicavo.
-</h2>
-<p>Effortlessly manage large-scale (like 5 plant) operations even if they were planted at different times.</p>
-</section>
+<Multicado></Multicado>
 
